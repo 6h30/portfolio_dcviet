@@ -1,0 +1,44 @@
+---
+title: "Tự động hóa quy trình bàn giao thiết kế với pipeline Figma to Code"
+publishedAt: "2025-02-26"
+summary: "Khám phá cuộc tranh luận lâu đời giữa việc sử dụng dấu cách và tab để thụt dòng trong mã nguồn, và tại sao lựa chọn này quan trọng hơn bạn nghĩ."
+images:
+  - "/images/projects/project-01/cover-02b.png"
+  - "/images/projects/project-01/image-02c.png"
+team:
+  - name: "dcviet"
+    role: "Software Engineer"
+    avatar: "/images/avatar.png"
+    linkedIn: "/"
+link: ""
+---
+
+##Tổng quan
+
+Trong dự án này, tôi tập trung vào việc tự động hóa quy trình bàn giao thiết kế, vốn thường rất tẻ nhạt. Mục tiêu là xây dựng một pipeline có thể chuyển đổi trực tiếp các thiết kế từ Figma thành mã nguồn sạch, sẵn sàng cho môi trường sản xuất. Bằng cách tích hợp các design token, thư viện thành phần và quy trình làm việc tự động, giải pháp này giúp giảm đáng kể thời gian chuyển đổi thiết kế sang mã nguồn, đồng thời duy trì tính nhất quán trong toàn bộ sản phẩm.
+
+##Tính năng chính
+
+Tích hợp Plugin Figma: Phát triển một plugin tùy chỉnh trong Figma giúp trích xuất các design token như màu sắc, kiểu chữ và khoảng cách, đồng thời xuất chúng theo định dạng tương thích với mã nguồn.
+Tự động tạo mã: Xây dựng quy trình tự động chuyển đổi các thành phần trong Figma thành mã React, sử dụng design token và các mẫu thành phần có sẵn. Nhờ đó, các lập trình viên có thể tập trung vào logic hơn là viết lại mã giao diện một cách lặp đi lặp lại.
+Đồng bộ liên tục: Thiết lập pipeline CI/CD để đồng bộ hóa thiết kế từ Figma với mã nguồn, đảm bảo mọi cập nhật thiết kế được phản ánh ngay lập tức mà không cần thao tác thủ công.
+Hệ thống thiết kế có thể mở rộng: Áp dụng hệ thống thiết kế làm nguồn dữ liệu duy nhất cho cả nhà thiết kế và lập trình viên, giúp duy trì sự nhất quán ngay cả khi sản phẩm tiếp tục phát triển.
+
+## Công nghệ sử dụng
+
+Figma API: Để trích xuất các design token và dữ liệu thành phần từ thiết kế Figma.
+React và Next.js: Xây dựng mã giao diện với các thành phần có thể tái sử dụng.
+Styled-Components: Quản lý kiểu dáng động dựa trên design token.
+GitHub Actions: Tự động hóa pipeline và đồng bộ hóa thay đổi thiết kế vào kho mã nguồn.
+
+## Thách thức và bài học rút ra
+
+Một trong những thách thức lớn nhất là đảm bảo mã nguồn được tạo ra phải sạch và dễ bảo trì. Điều này đòi hỏi phải thiết lập ánh xạ thông minh giữa các thành phần trong Figma với cấu trúc mã React, cũng như xử lý các trường hợp đặc biệt như thiết kế đáp ứng và render có điều kiện. Ngoài ra, quá trình đồng bộ liên tục đòi hỏi một hệ thống xử lý lỗi mạnh mẽ để tránh xung đột trong quá trình phát triển.
+
+## Kết quả
+
+Pipeline Figma to Code đã tối ưu hóa quy trình bàn giao, giảm 40% thời gian chuyển đổi từ thiết kế sang phát triển. Các nhà thiết kế có thể yên tâm rằng thiết kế của họ sẽ được chuyển đổi chính xác thành mã, trong khi lập trình viên có thể tập trung vào việc phát triển các tính năng phức tạp hơn. Dự án này đã chứng minh giá trị của tự động hóa trong việc thu hẹp khoảng cách giữa thiết kế và phát triển.
+
+---
+
+Dự án này thể hiện khả năng tận dụng tự động hóa để tối ưu quy trình làm việc, một yếu tố quan trọng trong danh mục kỹ sư thiết kế hướng đến hiệu suất và đổi mới.
