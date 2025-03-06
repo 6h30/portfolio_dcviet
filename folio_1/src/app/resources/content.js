@@ -95,7 +95,7 @@ const about = {
       {
         company: "duc& Agency",
         timeframe: "2022 - Present",
-        role: "Freelance Developer",
+        role: "Developer",
         achievements: [
           <>
             Thiết kế lại UI/UX cho trang web, giúp tăng 20% ​​mức độ tương tác của người dùng và thời gian tải nhanh hơn 30%.
@@ -108,35 +108,38 @@ const about = {
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01e.png",
-            alt: "Once UI Project",
+            alt: "UI Project",
             width: 16,
             height: 9,
           },
           {
             src: "/images/projects/project-01/cover-01f.png",
-            alt: "Once UI Project",
+            alt: "UI Project",
             width: 16,
             height: 9,
           },
           {
             src: "/images/projects/project-01/cover-01g.png",
-            alt: "Once UI Project",
+            alt: "UI Project",
             width: 16,
             height: 9,
           },
           {
             src: "/images/projects/project-01/cover-01d.gif",
-            alt: "Once UI Project",
+            alt: "UI Project",
             width: 16,
             height: 9,
-          },         
+          },
         ],
       },
       {
-        company: "www.omdstudio.art",
-        timeframe: "11/2024 - 1/2025",
+        company: "Project: www.omdstudio.art",
+        timeframe: "06/2024 - 1/2025",
         role: "Designer and Developer",
         achievements: [
+          <>
+            Thực hiện ý tưởng, triển khai thiết kế, và phát hành trang lên internet với thời gian rút ngắn chỉ trong 9 tuần. 
+          </>,
           <>
             Tối ưu hóa các thành phần, xử lý dữ liệu nền tảng nextjs, cải thiện seo lên 40%.
           </>,
@@ -157,6 +160,34 @@ const about = {
             width: 9,
             height: 16,
           },
+        ],
+      },
+      {
+        company: "Mitek FAB",
+        timeframe: "2019 - 2024",
+        role: "Design Engineer",
+        achievements: [
+          <>
+            Nghiên cứu các giải pháp thiết kế, tiêu chuẩn thiết kế để tăng năng suất và hiệu quả cho đội ngũ tại Việt Nam thực hiện các dự án tại Florida, Mỹ.
+          </>,
+          <>
+            Phối hợp cùng bộ phận phát triển phần mềm, rút ngắn quy trình thiết kế, tiết kiệm được nguồn lực cho khách hàng.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-02/img-2.webp",
+            alt: "UI Project",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-02/img-3.webp",
+            alt: "UI Project",
+            width: 16,
+            height: 9,
+          },     
         ],
       },
     ],
@@ -252,75 +283,41 @@ const gallery = {
   // Images from https://pexels.com
   images: [
     {
-      src: "/images/gallery/img-01.jpg",
+      src: "/images/gallery/folio-projects.png",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-02.jpg",
+      src: "/images/gallery/folio-services.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-03.jpg",
+      src: "/images/gallery/folio-contact.png",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-04.jpg",
+      src: "/images/gallery/folio-blogs.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-05.jpg",
+      src: "/images/gallery/folio-store.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-06.jpg",
+      src: "/images/gallery/folio-store-1.png",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-07.jpg",
+      src: "/images/gallery/folio-checkout.png",
       alt: "image",
       orientation: "horizontal",
     },
-    {
-      src: "/images/gallery/img-08.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-09.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-10.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-11.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-12.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-13.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-14.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
+ 
   ],
 };
 
